@@ -4,12 +4,42 @@ body {
     background-color: #fff;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 ul, ol {
     list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
 }
 
 a {
     text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    width: 1128px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+ /* -------------------HEADER---------------------- */
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-logo {
@@ -60,6 +90,9 @@ a {
     color: #404bbf;
 }
 
+ /* ------------------------------------------------ */
+  /* -------------------HERO---------------------- */
+
 .hero-title {
     font-weight: 700;
     font-size: 56px;
@@ -67,10 +100,15 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    max-width: 496px;
+    margin: 0 auto;
+    margin-bottom: 48px;
 }
 
 .hero {
     background: #2e2f42;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .order-button {
@@ -92,8 +130,12 @@ a {
 background-color: #404BBF;
 }
 
-.our-team {
-    background: #f4f4fd;
+/* ------------------------------------------------ */
+
+/* -------------------FEATURES---------------------- */
+
+.features {
+
 }
 
 .features-title {
@@ -111,6 +153,13 @@ background-color: #404BBF;
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-style: normal;
+}
+
+/* ------------------------------------------------- */
+/* -------------------OUR TEAM---------------------- */
+
+.our-team {
+    background: #f4f4fd;
 }
 
 .our-team-title {
@@ -146,6 +195,8 @@ background-color: #404BBF;
 
 }
 
+/* ------------------------------------------------ */
+/* -------------PORTFOLIO------------------------------- */
 .porfolio-text {
     font-weight: 400;
     font-size: 16px;
@@ -171,6 +222,10 @@ background-color: #404BBF;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
+
+/* ------------------------------------------------ */
+
+/* -------------------FOOTER---------------------- */
 
 .footer {
     background: #2e2f42;
@@ -198,3 +253,5 @@ background-color: #404BBF;
     color: #f4f4fd;
     font-style: normal;
 }
+
+/* --------------------------------------------- */
