@@ -242,7 +242,6 @@ background-color: #404BBF;
     justify-content: center;
     align-items: center;
     border-radius: 0 0 4px 4px;
-    width: 264px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
@@ -252,7 +251,6 @@ background-color: #404BBF;
 
 .our-team-content {
     width: 232px;
-    gap: 8px;
 }
 
 .card-name {
@@ -262,6 +260,7 @@ background-color: #404BBF;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 8px;
 
 }
 
@@ -291,6 +290,12 @@ background-color: #404BBF;
     color: #2e2f42;
     text-transform: capitalize;
     margin-bottom: 72px;
+}
+
+.our-portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px 24px;
 }
 
 .our-portfolio-card {
