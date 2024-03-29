@@ -51,6 +51,21 @@ button {
     padding-bottom: 24px;
 }
 
+.header-container {
+    display: flex;
+}
+
+.navigation {
+    display: flex;
+    flex-grow: 1;
+}
+
+.header-menu-list {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
 .header-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -59,6 +74,9 @@ button {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
+    display: flex;
+    align-items: center;
 }
 
 .header-logo-studio {
@@ -85,6 +103,12 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-style: normal;
+}
+
+.address-list {
+    display: flex;
+    gap: 40px;
+    align-items: center;
 }
 
 .address-link {
@@ -154,6 +178,19 @@ background-color: #404BBF;
     padding-bottom: 123px;
 }
 
+.features-list {
+    display: flex;
+    gap: 24px;
+}
+
+.features-list-item {
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
 .features-title {
     font-weight: 500;
     font-size: 20px;
@@ -161,7 +198,6 @@ background-color: #404BBF;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    margin-bottom: 8px;
 }
 
 .features-text {
@@ -193,13 +229,30 @@ background-color: #404BBF;
     margin-bottom: 72px;
 }
 
+.our-team-list {
+    display: flex;
+    gap: 24px;
+}
+
 .our-team-card {
     background-color: #FFFFFF;
     padding-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 4px 4px;
+    width: 264px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .our-team-picture {
     margin-bottom: 32px;
+}
+
+.our-team-content {
+    width: 232px;
+    gap: 8px;
 }
 
 .card-name {
@@ -209,7 +262,6 @@ background-color: #404BBF;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    margin-bottom: 8px;
 
 }
 
