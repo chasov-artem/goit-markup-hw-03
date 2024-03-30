@@ -66,7 +66,6 @@ img {
     display: flex;
     flex-grow: 1;
     align-items: center;
-    padding: 24px 0;
 }
 
 .header-menu-list {
@@ -86,6 +85,7 @@ img {
     margin-right: 76px;
     display: flex;
     align-items: center;
+    padding: 24px 0;
 }
 
 .header-logo-studio {
@@ -225,8 +225,8 @@ background-color: #404BBF;
 
 .our-team {
     background: #f4f4fd;
-    padding-top: 117px;
-    padding-bottom: 123px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .our-team-title {
@@ -247,7 +247,6 @@ background-color: #404BBF;
 
 .our-team-card {
     background-color: #FFFFFF;
-    padding-bottom: 32px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -256,12 +255,11 @@ background-color: #404BBF;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
-.our-team-picture {
-    margin-bottom: 32px;
-}
 
 .our-team-content {
-    flex-basis: calc((100% - 72px) / 4);;
+    flex-basis: calc((100% - 72px) / 4);
+    padding-top: 23px;
+    padding-bottom: 32px;
 }
 
 .card-name {
@@ -313,15 +311,16 @@ background-color: #404BBF;
 
 .our-portfolio-card {
     width: calc((100% - 48px) / 3);
-    border: 1px solid #e7e9fc;
 }
 
 .our-portfolio-icon {
     object-fit: cover;
+    max-width: 100%;
 }
 
 .portfolio-title-text {
-    padding: 32px 32px;
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
 }
 
 .portfolio-card-title {
@@ -339,6 +338,7 @@ background-color: #404BBF;
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-style: normal;
+
 }
 
 /* ------------------------------------------------ */
