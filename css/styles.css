@@ -30,6 +30,10 @@ button {
     cursor: pointer;
 }
 
+img {
+    display: block;
+}
+
 .visually-hidden {
     clip-path:  inset:(50%);
     height: 1px;
@@ -49,6 +53,7 @@ button {
 .header {
     padding-top: 24px;
     padding-bottom: 24px;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
@@ -250,7 +255,7 @@ background-color: #404BBF;
 }
 
 .our-team-content {
-    width: 232px;
+    flex-basis: calc((100% - 72px) / 4);;
 }
 
 .card-name {
@@ -295,15 +300,22 @@ background-color: #404BBF;
 .our-portfolio-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 32px 24px;
+    column-gap: 24px;
+    row-gap: 48px;
+    justify-content: center;
 }
 
 .our-portfolio-card {
-    padding-bottom: 32px;
+    width: calc((100% - 48px) / 3);
+    border: 1px solid #e7e9fc;
 }
 
 .our-portfolio-icon {
-    margin-bottom: 32px;
+    object-fit: cover;
+}
+
+.portfolio-title-text {
+    padding: 32px 16px;
 }
 
 .portfolio-card-title {
@@ -341,6 +353,8 @@ background-color: #404BBF;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-logo-studio {
